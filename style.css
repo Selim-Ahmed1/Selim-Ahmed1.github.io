@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+}
+header .header-links {
+    background-color: #3952bf;
+    padding: 50px 200px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.header-links a:hover {
+    background-color: #677ad1;
+    border-radius: 20px;
+}
+section {
+    color: white;
+    background-color: #5672ff;
+    padding: 100px 200px ;
+    font-size: x-large;
+    border-radius: 0px 0px 50px 50px;
+}
+footer {
+    font-size: large;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #ffffff;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #485bd6;}
+
+tr:hover {background-color: #121933;}
+
+.course-form-container {
+    width: 350px;
+    margin: 80px auto;
+    background: #3952bf;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #000000;
+}
+
+.course-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-form-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.course-form-container input,
+.course-form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.course-form-container textarea {
+    resize: none;
+    height: 80px;
+}
+
+.course-form-container button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-form-container button:hover {
+    background-color: #0056b3;
+}
+.contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.contact-page .contact-container {
+    width: 350px;
+    background: #3952bf;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px #000000;
+}
+
+.contact-page h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-page .contact-subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-page label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.contact-page input,
+.contact-page textarea {
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.contact-page textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-page button {
+    width: 100%;
+    margin-top: 18px;
+    padding: 11px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.contact-page button:hover {
+    background-color: #0056b3;
+}
